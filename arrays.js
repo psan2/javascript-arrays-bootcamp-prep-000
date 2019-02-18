@@ -17,3 +17,7 @@ function destructivelyAddElementToEndOfArray(array1,element1) {
   array1 = [...array1,element1]
   return array1
 }
+
+function accessElementInArray(array1,index) {
+  return array1[parseInt(index)]
+}
